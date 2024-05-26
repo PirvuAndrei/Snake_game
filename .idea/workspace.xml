@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f13b280-5bf6-423f-85d8-045b938383d4" name="Changes" comment="Control the Snake with Keypress">
-      <change afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
+    <list default="true" id="0f13b280-5bf6-423f-85d8-045b938383d4" name="Changes" comment="Detect Collisions with Food">
+      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -37,6 +37,7 @@
   "keyToString": {
     "Python.food.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.scoreboard.executor": "Run",
     "Python.snake.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,6 +89,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scoreboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Snake_game" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scoreboard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="snake" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Snake_game" />
       <option name="ENV_FILES" value="" />
@@ -113,6 +136,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.scoreboard" />
         <item itemvalue="Python.food" />
         <item itemvalue="Python.snake" />
       </list>
@@ -166,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716672610756</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Detect Collisions with Food">
+      <option name="closed" value="true" />
+      <created>1716709361333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716709361333</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +217,7 @@
     <MESSAGE value="Animating the Snake Segments on Screen" />
     <MESSAGE value="Create the Snake Class" />
     <MESSAGE value="Control the Snake with Keypress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Control the Snake with Keypress" />
+    <MESSAGE value="Detect Collisions with Food" />
+    <option name="LAST_COMMIT_MESSAGE" value="Detect Collisions with Food" />
   </component>
 </project>
